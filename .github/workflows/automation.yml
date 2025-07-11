@@ -17,3 +17,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Run performance tracker
+        run: python fetch_psi.py
